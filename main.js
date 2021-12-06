@@ -21,7 +21,7 @@ function uploadimg() {
 }
 
 //Write a code to grab the key-pressed event
-window.addEventListener("keydown", my_keydown)
+window.addEventListener("keydown", my_keydown);
 function my_keydown(e)
 {
 	keyPressed = e.keyCode;
